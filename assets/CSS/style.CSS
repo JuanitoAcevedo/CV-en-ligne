@@ -24,7 +24,7 @@ header {
     align-items: center;
 }
 
-img {
+.img-profil {
     position: absolute;
     left: 185px;
     width: 125px;
@@ -67,6 +67,7 @@ a {
 
 .permis {
     margin-top: 102px;
+    margin-right: 17px;
 }
 
 h3 {
@@ -86,6 +87,7 @@ main {
 }
 .section-1 td {
     font-size: small;
+    font-style: italic;
 }
 
 .section-1 th + td {
@@ -123,4 +125,19 @@ article {
 
 .section-2 .competences td {
     color: #17abb3;
+}
+
+footer {
+    background-color: #17abb3;
+    padding-top: 36px;
+    padding-bottom: 1px;
+    text-align: center;
+    font-size: xx-small;
+    color: #ffffff;
+}
+
+footer img {
+    width: 18px;
+    padding-right: 10px;
+    padding-left: 5px;
 }
