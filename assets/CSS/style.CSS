@@ -85,6 +85,7 @@ main {
     width: 700px;
     text-align: left;
 }
+
 .section-1 td {
     font-size: small;
     font-style: italic;
@@ -92,6 +93,7 @@ main {
 
 .section-1 th + td {
     padding-left: 264px;
+    padding-bottom: 10px;
     text-align: right;
     color: #17abb3;
 }
@@ -102,6 +104,7 @@ main {
 
 .section-2 {
     width: 282.65px;
+    height: 840px;
     text-align: left;
     background-color: #f5f5f5;
 }
@@ -127,6 +130,13 @@ article {
     color: #17abb3;
 }
 
+ul {
+    list-style-type: square;
+}
+
+li::marker {
+    color: #17abb3;
+}
 footer {
     background-color: #17abb3;
     padding-top: 36px;
