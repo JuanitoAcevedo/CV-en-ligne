@@ -32,6 +32,9 @@ header {
     border: solid #fff;
 }
 
+.img-profil:hover {
+    cursor: zoom-in;
+}
 header h1 {
     padding-left: 254px;
     position: absolute;
@@ -130,6 +133,10 @@ article {
     color: #17abb3;
 }
 
+tr:hover {
+    background-color: #e3e3e3;
+    border-left: 20px solid #17abb3;
+}
 ul {
     list-style-type: square;
 }
@@ -150,4 +157,8 @@ footer img {
     width: 18px;
     padding-right: 10px;
     padding-left: 5px;
+}
+
+footer img:hover {
+    opacity:0.6
 }
