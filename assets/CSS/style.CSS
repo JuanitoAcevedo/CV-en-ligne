@@ -34,7 +34,7 @@ img {
 header h1 {
     padding-left: 254px;
     position: absolute;
-    top: 0;
+    top: 0px;
     color: #ffffff;
 }
 
@@ -68,3 +68,19 @@ a {
     margin-top: 102px;
 }
 
+h3 {
+    color: #17abb3;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.section-1 {
+    width: 700px;
+}
+
+.section-2 {
+    width: 282.65px;
+}
