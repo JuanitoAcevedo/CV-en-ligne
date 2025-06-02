@@ -133,9 +133,12 @@ article {
     color: #17abb3;
 }
 
+tr {
+    border: 5.3px;
+}
 tr:hover {
     background-color: #e3e3e3;
-    border-left: 20px solid #17abb3;
+    border: #17abb3 solid 15px;
 }
 ul {
     list-style-type: square;
