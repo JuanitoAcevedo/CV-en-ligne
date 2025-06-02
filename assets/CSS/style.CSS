@@ -2,15 +2,68 @@ body {
     margin-right: 10%;
     margin-left: 10%;
 }
-header, footer {
-    background-color: #17abb3;
+
+h1, h2, h3 {
+    font-family: "lato", sans-serif;
 }
 
+h2 {
+    position: absolute;
+    top: 47px;
+    right: 383px;
+    color: #ffffff;
+    margin-right: -25px;
+    font-size: large;
+}
 header {
-    height: 5%;
+    background-color: #17abb3;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-header img {
-    width: 100px;
+img {
+    position: absolute;
+    left: 185px;
+    width: 125px;
     border-radius: 50%;
+    border: solid #fff;
+}
+
+header h1 {
+    padding-left: 254px;
+    position: absolute;
+    top: 0;
+    color: #ffffff;
+}
+
+header p {
+    position: absolute;
+    top: 47px;
+    right: 383px;
+    color: #ffffff;
+}
+a {
+    color: #ffffff;
+}
+
+.mail {
+    margin-top: 61px;
+    margin-right: 126px;
+}
+
+.maps {
+    margin-top: 61px;
+    margin-left: 0px;
+    margin-right: -208px;
+}
+
+.tel {
+    margin-top: 102px;
+    margin-right: 153px;
+}
+
+.permis {
+    margin-top: 102px;
 }
