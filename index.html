@@ -3,34 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="decription" content="la page Web contient mon Curriculum-Vitae">
+    <link rel="stylesheet" href="./assets/CSS/style.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./assets/icon/maquette.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/9806e92c5e.js" crossorigin="anonymous"></script>
-    <title>Mon CV en ligne</title>
+    <title>Mon Curriculum-Vitae en ligne</title>
 </head>
 <body>
     <header>
         <h1>Arthur Caron-Lebrec</h1>
-        <p>Développeur Web et Web mobile</p>
-        <img src="./assets/images/Photos-de-profil.jpg" alt="Photos-de-profil">
+        <h2>Développeur Web et Web mobile</h2>
+        <a href="./assets/images/Photos-de-profil.jpg"></a><img class="img-profil" src="./assets/images/Photos-de-profil.jpg" alt="Photos-de-profil">
         <address>
-            <div>
-                <i class="fa-solid fa-envelope"></i>
-                <a href="mailto:test@mail.com">arthur@gmail.com</a>
-            </div>
-            <div>
-                <i class="fa-solid fa-house"></i>
-                <a href="https://www.google.fr/maps/place/Ch%C3%A2teau+de+Ch%C3%A2teaubriant/@47.71942,-1.3913215,15z/data=!4m14!1m7!3m6!1s0x480f4afee058a4b3:0x5df9b4121aa99338!2sCh%C3%A2teau+de+Ch%C3%A2teaubriant!8m2!3d47.719407!4d-1.372889!16s%2Fm%2F0r4j3gv!3m5!1s0x480f4afee058a4b3:0x5df9b4121aa99338!8m2!3d47.719407!4d-1.372889!16s%2Fm%2F0r4j3gv?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D">Place du Château; 44110 Châteaubriant</a>
-            </div>
-            <div>
-                <i class="fa-solid fa-phone"></i>
-                <a href="tel: 0606060606">06.06.06.06.06</a>
-            </div>
-            <div>
-                <p><i class="fa-solid fa-car"></i>Permis B</p>
-            </div>
+            <p class="mail"><i class="fa-solid fa-envelope" title="mail"></i>
+            <a href="mailto:test@mail.com">arthur@gmail.com</a></p>
+            <p class="maps"><i class="fa-solid fa-house" title="localisation"></i>
+            <a target="_blank" href="https://www.google.fr/maps/place/Ch%C3%A2teau+de+Ch%C3%A2teaubriant/@47.71942,-1.3913215,15z/data=!4m14!1m7!3m6!1s0x480f4afee058a4b3:0x5df9b4121aa99338!2sCh%C3%A2teau+de+Ch%C3%A2teaubriant!8m2!3d47.719407!4d-1.372889!16s%2Fm%2F0r4j3gv!3m5!1s0x480f4afee058a4b3:0x5df9b4121aa99338!8m2!3d47.719407!4d-1.372889!16s%2Fm%2F0r4j3gv?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D">Place du Château; 44110 Châteaubriant</a></p>
+            <p class="tel"><i class="fa-solid fa-phone" title="telephone"></i>
+            <a href="tel:0606060606">06.06.06.06.06</a></p>
+            <p class="permis"><i class="fa-solid fa-car" title="permis-de-conduire"></i>Permis B</p>
         </address>
     </header>
-
-    
+    <main>
+        <section class="section-1">
+            <article class="profil">
+                <h3>Profil</h3>
+                <!--Texte indenté sur une seule ligne comme demandé 
+                et pour raccourcir le code-->
+                <p>Ayant terminé ma formation de Développeur Web et mobile, je suis à la recherche d'un emploi afin de mettre mon savoir-faire et ma motivation à contribution d'une entreprise innovante, telle que la vôtre. De même que cela me permettrait d'approfondire ces dernières auprès d'une équipe dynamique.</p>
+            </article>
+            <article>
+                <h3>Formations</h3>
+                <table>
+                    <tr>
+                        <th>Titre Professionnel Développeur Web et Mobile</th>
+                        <td>2025/2026</td>
+                    </tr>
+                    <tr>
+                        <td>Centre Européen de Formation</td>
+                    </tr>
+                    <tr>
+                        <th>BTS Professions Immobilières</th>
+                        <td>2009/2011</td>
+                    </tr>
+                    <tr>
+                        <td>AFTEC supouest, CAEN</td>
+                    </tr>
+                    <tr>
+                        <th>BAC Economiques et Sociales</th>
+                        <td>Juin 2009</td>
+                    </tr>
+                    <tr>
+                        <td>Lycèe Juliot deS la Morandière, Granville</td>
+                    </tr>
+                    <tr>
+                        <th>Brevet des collèges</th>
+                        <td>Juin 2004</td>
+                    </tr>
+                    <tr>
+                        <td>Collège André Malraux, Granville</td>
+                    </tr>
+                </table>
+            </article>
+            <article>
+                <h3>Expériences Profesionnelles</h3>
+                <table>
+                    <tr>
+                        <th>Conseiller immobilier</th>
+                        <td>novembre 2019 - Décembre 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Era Immobilier</td>
+                    </tr>
+                    <tr>
+                        <th>Téléconseiller intérimaire</th>
+                        <td>Mars 2019 - Août 2019</td>
+                    </tr>
+                    <tr>
+                        <td>Webhelp</td>
+                    </tr>
+                    <tr>
+                        <th>Conseiller Immobilier</th>
+                        <td>mai 2016 - juillet 2017</td>
+                    </tr>
+                    <tr>
+                        <td>Guy Hoquet</td>
+                    </tr>
+                    <tr>
+                        <th>Négociateur en immobilier</th>
+                        <td>octobre 2015 - février 2016</td>
+                    </tr>
+                    <tr>
+                        <td>Immo Direct</td>
+                    </tr>
+                    <tr>
+                        <th>Négociateur en immobilier</th>
+                        <td>mars 2015 - septembre 2015</td>
+                    </tr>
+                    <tr>
+                        <td>Cabinet Folliot</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+        <section class="section-2">
+            <article>
+                <h3>Compétences</h3>
+                <table class="competences">
+                    <tr>
+                        <th>HTML</th>
+                        <td class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+                    </tr>
+                    <tr>
+                        <th>CSS</th>
+                        <td class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+                    </tr>
+                    <tr>
+                        <th>JavaScript</th>
+                        <td class="stars">&#9734;&#9734;&#9734;&#9734;&#9734;</td>
+                    </tr>
+                    <tr>
+                        <th>PHP</th>
+                        <td class="stars">&#9734;&#9734;&#9734;&#9734;&#9734;</td>
+                    </tr>
+                </table>
+            </article>
+            <article class="languages">
+                <h3>Langues</h3>
+                <table>
+                    <tr>
+                        <th>Français</th>
+                        <td>Langue maternelle</td>
+                    </tr>
+                    <tr>
+                        <th>Anglais</th>
+                        <td>Scolaire</td>
+                    </tr>
+                    <tr>
+                        <th>Espagnol</th>
+                        <td>Courant</td>
+                    </tr>
+                </table>
+            </article>
+            <article class="qualities">
+                <h3>Qualités</h3>
+                <ul>
+                    <li>Esprit d'équipe</li>
+                    <li>Autonomie</li>
+                    <li>Organisation</li>
+                    <li>Persévérant</li>
+                    <li>Perfectionniste</li>
+                </ul>
+            </article>
+            <article class="interests">
+                <h3>Centre d'intérêt</h3>
+                <ul>
+                    <li>Musique (Guitare)</li>
+                    <li>Tennis</li>
+                    <li>Sports</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <!--Insertion de logos vers le réseaux sociaux-->
+        <a target="_blank" href="https://fr.linkedin.com/"><img src="./assets/icon/linkedin.png" alt="icone-linkedin"></a>
+        <a target="_blank" href="https://github.com/JuanitoAcevedo"><img src="./assets/icon/github.png" alt="icone-Github"></a>
+        <a target="_blank" href="https://www.instagram.com/"><img src="./assets/icon/instagram.png" alt="icone-instagram"></a>
+        <p>Mis à jour le: <time datetime="2025-06-02">2 juin 2025</time></p>
+    </footer>
+    <!--J'ai souhaité utilisé le flexbox à plusieur reprises mais sans succès je crois à mon grand regret. Je persévère! J'aurais besoin d'un peu d'explications et d'entrainement encore dessus -->
 </body>
 </html>
